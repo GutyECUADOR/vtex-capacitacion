@@ -1,0 +1,51 @@
+{
+  "store.home": { 
+    "children": [
+      "flex-layout.row#homebanners"
+    ]
+  },
+  "flex-layout.row#homebanners": {
+    "children" :[
+      "flex-layout.col#bannerA",
+      "flex-layout.col#bannerB",
+      "flex-layout.col#bannerC"
+    ]
+  },
+  "flex-layout.col#bannerA" : {
+    "children" : [
+      "rich-text"
+    ]
+  },
+  "flex-layout.col#bannerB" : {
+    "children" : [
+      "rich-text"
+    ]
+  },
+  "flex-layout.col#bannerC" : {
+    "children" : [
+      "image#example",
+      "rich-text#3"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#3": { 
+    "props": { 
+      "text": "Coleccion Hombres",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "image#example": {
+    "props": {
+      "src": "https://placehold.co/600x400"
+    }
+  }
+}
